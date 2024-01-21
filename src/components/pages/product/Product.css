@@ -1,0 +1,98 @@
+.productContainer{
+    background-color: rgb(241, 240, 240);
+}
+.pContainer{
+    display: flex;
+    /* border: 2px solid green ;  */
+    height: 100%;
+}
+.Pimage{
+    width: 100%;
+    height: 500px;
+  /* border : 2px solid pink ; */
+  
+}
+.Pleft{
+    width: 50%;
+    /* border: 2px solid black; */
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 1em;
+}
+.Pright{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+    /* border: 2px solid red ; */
+    padding: 1.5em;
+
+}
+.PbuttonL{
+    width: 110px;
+    background-color: white;
+    font-size: medium;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 5.8px;
+    height: 40px;
+    font-size: large;;
+}
+.PbuttonD{
+    width: 110px;
+    color: white ;
+    background-color: black;
+    margin: 5px;
+    border-radius: 5.8px;
+    border: 1px solid black;
+    height: 40px;
+    font-size: large;
+}
+.PbuttonD:hover{
+    color: black ;
+    background-color: white;
+    border: 2px solid black;
+}
+.PbuttonL:hover{
+    color: white ;
+    background-color: rgb(10, 10, 10);
+}
+.btns{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    /* border: 1px solid black; */
+    justify-content: center;
+    column-gap: 20px;
+
+}
+
+@media (max-width:540px) and (min-width:280px) {
+
+    .pContainer{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        margin: 0px auto;
+        height: 100vh;
+    }
+    .Pimage{
+        width: 100%;
+        /* border: 2px solid black; */
+        height: 100%;
+        padding-bottom: 15px;
+        border-bottom: 1px solid rgba(158, 156, 156, 0.39);
+    }
+    .Pleft{
+        width: 100%;
+        height: 45%;
+    }
+    .Pright{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        /* border: 2px solid red ; */
+        background-color: white ;
+        padding: 1em;
+    }
+}

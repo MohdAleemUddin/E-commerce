@@ -1,0 +1,8 @@
+.CarouselContainer{
+    height: 50vh;
+    margin:30px;
+}
+.carouselimg{
+    height: 49.6vh;
+    object-fit:contain;
+}

@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.NavBar {
+    margin: -2px;
+    height: 120px;
+    /* border: 2px solid red; */
+}
+
+.Navcontainer {
+    display: inline-flex;
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(140, 140, 143);
+    align-items: center;
+    z-index: 110;
+}
+
+.Navleft {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 70%;
+    /* border: 2px solid black; */
+    align-items: center;
+}
+
+.Navimg {
+    height: 60px;
+    padding: 4px;
+    /* border: 1px dotted black; */
+}
+
+.Navinput-section {
+    display: inline-flex;
+    width: 70%;
+    border-radius: 9px;
+    border: none;
+    align-items: center;
+    height: 100%;
+    /* border: 3px dotted red; */
+}
+
+.Navinputbox {
+    width: 87%;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border: none;
+    height: 35px;
+    outline: none;
+    font-size: medium;
+}
+
+.Navsearch-icon {
+    height: 35px;
+    width: 13%;
+    padding: 5px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.Navright {
+    width: 30%;
+    display: inline-flex;
+    align-items: center;
+    /* border : 2px solid red; */
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+.Navbutton {
+    height: 30px;
+    width: 70px;
+    margin: 10px;
+    border: none;
+    border-radius: 15px;
+    font-size: medium;
+    transition: 0.4s ease;
+}
+
+.Navbutton:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transform: scale(1.09);
+}
+
+.LNav {
+    height: 54px;
+    margin-top: 46px;
+}
+
+
+@media (max-width:500px) and (min-width: 300px) {
+    .Navcontainer{
+        display:inline-flex;
+        width: 100%;
+        height: 60px;
+        /* border: 2px solid red; */
+        justify-content: space-evenly;
+    }
+    .Navimg {
+        height: 43px;
+        margin-right: 2px;
+        /* border: 1px dotted black; */
+    }
+    .Navinputbox {
+        width: 75%;
+        height: 30px; 
+        /* border: 2px solid green; */
+        font-size: small;
+        margin-left: 5px;
+    }
+    .Navsearch-icon {
+        height: 30px;
+        width: 13%;
+        padding: 2px;
+        color: white;
+        background-color: rgb(0, 0, 0);
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        margin-left:-2.6px ;
+    
+    }
+    .Navright {
+        width: 35%;
+        display: flex;
+        /* border : 2px solid red; */
+        margin-right: 5px;
+       
+    }
+    .Navbutton {
+       height: 30px;
+       width: 50px;
+       font-size:small;
+       margin-left: 2px;
+       border-radius: 4px;
+    }
+
+}
