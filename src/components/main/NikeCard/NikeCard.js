@@ -63,7 +63,6 @@ const NikeCard = () => {
                   <div className="price">
                     <h2 className="heavyText">MRP {products.price}</h2>
                   </div>
-
                   <p className="simpleText">
                     {products.description.substring(0, 42)}...
                   </p>

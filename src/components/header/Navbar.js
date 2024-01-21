@@ -18,14 +18,12 @@ let Navbar = () => {
                             <BsSearch className="Navsearch-icon" />
                         </div>
                     </div>
-
                     <div className="Navright">
                         <Link to='/login'><button className="Navbutton">log in</button></Link>
                         <Link to='/signin'><button className="Navbutton">sign in</button></Link>
                     </div>
                 </div>
                 <br />
-
                 <div className="LNav">
                     <LowerNav />
                 </div>
