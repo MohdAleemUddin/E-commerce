@@ -44,7 +44,7 @@ const NikeCard = () => {
                     </h6>
                   </span>
                   <p className="simpleText">
-                    {products.description.substring(0, 42)}...
+                    {products.description.substring(0, 50)}...
                   </p>
                 </div>
                 <div id="extraImagesPart">
@@ -61,10 +61,10 @@ const NikeCard = () => {
                     ))}
                   </div>
                   <div className="price">
-                    <h2 className="heavyText">MRP {products.price}</h2>
+                    <h6 className="heavyText">MRP <h4>₹ {products.price}</h4></h6>
                   </div>
-                  <p className="simpleText">
-                    {products.description.substring(0, 42)}...
+                  <p className="simpleText descriptionPart">
+                    {products.description.substring(0, 48)}...
                   </p>
                 </div>
               </div>

@@ -62,7 +62,7 @@ label {
 .button:hover {
     color: black;
     background-color: white;
-    border: 1.5px solid black;
+    /* border: 1.5px solid black; */
 }
 
 @media (max-width:500px) and (min-width:300px) {

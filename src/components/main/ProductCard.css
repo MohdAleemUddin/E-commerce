@@ -1,62 +1,66 @@
 .Container {
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    width: 100%;
-    justify-content: space-evenly;
-    gap: 40px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  justify-content: space-evenly;
+  gap: 40px 0px;
 }
 
 .MainCarousel {
-    display: block;
-    margin-top: 60px;
+  display: block;
+  margin-top: 60px;
 }
 
-.card {
-    display: flex;
-    flex-direction: column;
-    height: 40vh;
-    width: 20vw;
-    border: 3px solid rgba(0, 0, 0, 0.2);
-    padding: 5px;
-    background-color: white;
-    min-width: 320px;
-    transition: 0.3s ease;
-    border-radius: 10px;
+.homePagecard {
+  display: flex;
+  flex-direction: column;
+  height: 45vh;
+  width: 20vw;
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  background-color: white;
+  min-width: 320px;
+  transition: 0.3s ease;
+  border-radius: 10px;
 }
 
 .image {
-    height: 55%;
-    object-fit: contain;
-    border-bottom: 1px solid rgb(229, 232, 235);
+  height: 55%;
+  object-fit: contain;
+  border-bottom: 1px solid rgb(229, 232, 235);
 }
 
 .details {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    height: 45%;
-    padding: 10px;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 45%;
+  padding: 10px 5px;
+  justify-content: space-between;
+  color: black;
 }
 
-/* .card:hover{
-    transform: scale(1.05);
-} */
+.homePagecard:hover {
+  transform: scale(1.05);
+}
 .title {
-    display: block;
-    height: auto;
-    /* border: 2px dotted red; */
-    font-size: medium;
-    height: 60;
+  display: block;
+  height: auto;
+  /* border: 2px dotted red; */
+  /* font-size: medium; */
+  height: 60;
+  color: black;
 }
 
 .price {
-    color: rgb(0, 0, 0);
-    font-size: larger;
-    /* border: 2px solid black; */
-    height: 30%;
+  color: rgb(0, 0, 0);
+  /* font-size: larger; */
+  /* border: 2px solid black; */
+  height: 30%;
+  color: rgb(10, 58, 14);
 }
-.description{
-    overflow: hidden;
+.description {
+  overflow: hidden;
 }
+

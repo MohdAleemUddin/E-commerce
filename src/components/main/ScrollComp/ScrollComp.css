@@ -20,11 +20,12 @@
   height: 100%;
   min-width: 370px;
   background-color: rgba(255, 255, 255, 0.433);
-  border: 2px solid rgba(55, 54, 54, 0.645);
+  /* border: 2px solid rgba(55, 54, 54, 0.645); */
   /* padding: 15px; */
 }
 .scrollImages {
   object-fit: cover;
   height: 100%;
   width: 100%;
+  
 }
